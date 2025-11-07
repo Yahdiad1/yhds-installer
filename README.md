@@ -15,4 +15,5 @@ Script ini digunakan untuk install VPS multi-tunnel dengan fitur:
 
 ```bash
 git clone https://github.com/Yahdiad1/yhds-installer.git
-cd yhds-installer
+cd yhds-installer/
+chmod +x install.sh && ./install.sh.
