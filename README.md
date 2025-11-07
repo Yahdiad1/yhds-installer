@@ -14,8 +14,6 @@ Script ini digunakan untuk install VPS multi-tunnel dengan fitur:
 1. Clone repo atau download:
 
 ```bash
-wget -O install.sh https://raw.githubusercontent.com/Yahdiad1/yhds-installer/main/install_v2.sh
-bash install.sh
 # YHDS VPN Installer
 
 Script ini untuk install VPN + WS + Trojan + UDP-Custom + Auto-Restart.
