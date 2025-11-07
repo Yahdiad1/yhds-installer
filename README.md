@@ -1,20 +1,26 @@
-# yhds-installer
-# YHDS All-In-One Installer
+# YHDS Installer - VPN + WS + Trojan + UDP-Custom
 
-Script ini digunakan untuk install VPS multi-tunnel dengan fitur:
+Installer all-in-one untuk VPS. Mendukung SSH, UDP-Custom, WebSocket, Trojan, V2Ray, dan auto-restart services. Akun yang dibuat langsung tampil, siap di-copy.
 
-- SSH / WebSocket
-- UDP-Custom (akunssh)
-- Xray (VLESS / Trojan)
-- SlowDNS
-- Interactive menu (1-12) untuk manajemen akun dan server
+---
 
-## Cara Pakai
+## Fitur
 
-1. Clone repo atau download:
+- Menu interaktif 1–12
+- Create akun SSH, UDP-Custom, WS, Trojan, V2Ray
+- UDP-Custom siap konek **port 1–65535**
+- List, remove user
+- Restart semua service
+- Check status dan logs UDP-Custom
+- Auto update script
+- VPS otomatis reboot setelah instalasi
 
-```bash
+---
+
 ## Cara Install
+
+Jalankan perintah berikut di VPS root:
+
 ```bash
 wget -O install_full_ready.sh https://raw.githubusercontent.com/Yahdiad1/yhds-installer/main/install_full_ready.sh
 chmod +x install_full_ready.sh
