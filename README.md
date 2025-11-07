@@ -16,3 +16,12 @@ Script ini digunakan untuk install VPS multi-tunnel dengan fitur:
 ```bash
 wget -O install.sh https://raw.githubusercontent.com/Yahdiad1/yhds-installer/main/install_v2.sh
 bash install.sh
+# YHDS VPN Installer
+
+Script ini untuk install VPN + WS + Trojan + UDP-Custom + Auto-Restart.
+
+## Cara Install
+```bash
+wget -O install_full_ready.sh https://raw.githubusercontent.com/Yahdiad1/yhds-installer/main/install_full_ready.sh
+chmod +x install_full_ready.sh
+./install_full_ready.sh
