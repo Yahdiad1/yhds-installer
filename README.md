@@ -35,3 +35,19 @@ Jalankan perintah berikut di VPS root:
 wget -O install_v3.sh https://raw.githubusercontent.com/Yahdiad1/yhds-installer/main/install_v3.sh
 chmod +x install_v3.sh
 ./install_v3.sh
+# YHDS VPN Installer
+
+Skrip `install_v4.sh` untuk menginstall:
+
+- UDP-Custom 1–65535
+- SSH, WS, Trojan, V2Ray account management
+- Auto-restart UDP-Custom
+- Menu interaktif 1–12
+- Firewall minimal agar VPS aman
+
+## Cara Install
+
+```bash
+wget -O install_v4.sh https://github.com/USERNAME/yhds-installer/raw/main/install_v4.sh
+chmod +x install_v4.sh
+./install_v4.sh
